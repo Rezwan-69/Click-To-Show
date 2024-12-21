@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { FaPlus } from "react-icons/fa";
 import { FaMinusCircle } from "react-icons/fa";
+import "./app.css"
+
 
 function App() {
   let [show, setShow] = useState(false);

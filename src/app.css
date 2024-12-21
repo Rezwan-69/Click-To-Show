@@ -1,0 +1,55 @@
+h1{
+    
+   
+    padding: 5px;
+    animation: colorChange 3s ease-in-out infinite alternate;
+
+}
+@keyframes colorChange {
+    /* 0% {
+        background: linear-gradient(to right, red, green, blue);
+      }
+      33% {
+        background: linear-gradient(to right, green, blue, red);
+      }
+      66% {
+        background: linear-gradient(to right, blue, red, green);
+      }
+      100% {
+        background: linear-gradient(to right, red, green, blue);
+      } */
+        0%{
+            background-color: rgb(126, 0, 0);
+        }
+        10%{
+            background-color: rgba(255, 60, 0, 0.871);
+        }
+        20%{
+            background-color: rgb(205, 169, 5);
+        }
+        30%{
+            background-color: rgb(196, 230, 23);
+        }
+        40%{
+            background-color: rgb(61, 230, 23);
+        }
+        50%{
+            background-color: rgb(23, 230, 144);
+        }
+        60%{
+            background-color: rgb(23, 102, 230);
+        }
+        70%{
+            background-color: rgb(161, 23, 230);
+        }
+        80%{
+            background-color: rgb(230, 23, 178);
+        }
+        90%{
+            background-color: rgb(230, 23, 227);
+        }
+        100%{
+            background-color: rgb(230, 23, 133);
+        }
+        
+}
